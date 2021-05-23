@@ -1,0 +1,66 @@
+@media only screen and (max-width:1024px){
+    .container{
+        display: block;
+    }
+    .header-1{
+        width: 100%;
+        
+    }
+    .header-2{
+        /* display: none; */
+        display: block;
+        background-color: black;
+        width: 200px;
+        height: 100%;
+        position: fixed;
+        left: -200px;
+    }
+    .header-22 {
+        display: none;
+    }
+    .visible{
+        left: 0px;
+        transition: left 0.3s ease;
+    }
+    .header-21 ul{
+        display: block;
+       
+    }
+    .header-21 ul li{
+        margin-bottom: 10px;
+    }
+    .header-21 ul li a{
+        color: chocolate;
+        font-size: 20px;
+    }
+    .header-1 ul{
+         display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-1 ul li{
+        width:32% ;
+    }
+    .header-1 ul li i{
+        font-size: 20px;
+    }
+    #icon-bar, #icon-search{
+        display: block;
+    }
+   .header-1 li:hover ul.dropdown {
+        display: flex;
+    }
+   .header-1 li ul.dropdown {
+        position: absolute;
+        display: none;
+        width:min-content;
+        background: black;
+        border-radius:5px; 
+    }
+   .header-1 li ul.dropdown input{
+        padding: 3px;
+        outline: none;
+        border-radius: 5px;
+    }
+
+}

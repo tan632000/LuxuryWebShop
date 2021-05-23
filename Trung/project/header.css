@@ -60,7 +60,7 @@ i{
 /* header-2 */
 .header-2 ul{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
     width: 100%;
     position: relative;

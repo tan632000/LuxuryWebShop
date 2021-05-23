@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/90d684ab4f.js"></script>
+    <link rel="stylesheet" href="headerb.css">
+    <link rel="stylesheet" href="headerb1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="header-bar">
+        <div class="container">
+            <div class="header-1">
+                <ul>
+                    <li id="icon-bar"><i class="fa fa-bars"  ></i></li>
+                    <li><img src="logoonpic.png" alt="logo"></li>
+                    <li id="icon-search">
+                        <i class="fa fa-search" ></i>
+                        <ul class="dropdown">
+                            <li><input type="text" placeholder="search"></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-2">
+                <div class="header-21">
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">VERTU</a>
+                            <ul class="dropdown">
+                                <li><a href="">Vertu1</a></li>
+                                <li><a href="">Vertu2</a></li>
+                                <li><a href="">Vertu3</a></li>
+                                <li><a href="">Vertu1</a></li>
+                                <li><a href="">Vertu2</a></li>
+                                <li><a href="">Vertu3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">WATCH</a>
+                            <ul class="dropdown">
+                                <li><a href="">Vertu1</a></li>
+                                <li><a href="">Vertu2</a></li>
+                                <li><a href="">Vertu3</a></li>
+                                <li><a href="">Vertu1</a></li>
+                                <li><a href="">Vertu2</a></li>
+                                <li><a href="">Vertu3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">PHỤ KIỆN</a>
+                            <ul class="dropdown">
+                                <li><a href="">Vertu1</a></li>
+                                <li><a href="">Vertu2</a></li>
+                                <li><a href="">Vertu3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">KHÁM PHÁ</a>
+                            <ul class="dropdown">
+                                <li><a href="">Vertu1</a></li>
+                                <li><a href="">Vertu2</a></li>
+                                <li><a href="">Vertu3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">DỊCH VỤ</a>
+                            <ul class="dropdown">
+                                <li><a href="">Vertu1</a></li>
+                                <li><a href="">Vertu2</a></li>
+                                <li><a href="">Vertu3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">LIÊN HỆ</a></li>
+                    </ul>
+                </div>
+                <div class="header-22">
+                    <ul>
+                        <li><i class="fa fa-shopping-cart" ></i></li>
+                        <li><i class="fa fa-search" ></i>
+                            <ul class="dropdown"><input type="text"></ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+<script>
+    // const id = document.getElementsByClassName('header-2');
+    // id[0].style.display = 'flex';
+    // function sub(){
+    //     if(id[0].style.display == 'none'){
+    //         id[0].style.display = 'flex';
+    //     }else{
+    //         id[0].style.display ='none';
+    //     }
+    // }
+    $(document).ready(function(){
+        $('.fa-bars').click(function(){
+            console.log('ok')
+            $('.header-2').toggleClass('visible');
+        });
+    });
+</script>
+</body>
+</html>
