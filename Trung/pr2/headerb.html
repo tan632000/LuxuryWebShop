@@ -14,16 +14,21 @@
     <div class="header-bar">
         <div class="container">
             <div class="header-1">
-                <ul>
-                    <li id="icon-bar"><i class="fa fa-bars"  ></i></li>
-                    <li><img src="logoonpic.png" alt="logo"></li>
-                    <li id="icon-search">
-                        <i class="fa fa-search" ></i>
-                        <ul class="dropdown">
-                            <li><input type="text" placeholder="search"></li>
-                        </ul>
-                    </li>
-                </ul>
+                <div class="header-logo">
+                    <ul>
+                        <li id="icon-bar"><i class="fa fa-bars"  ></i></li>
+                        <li><a href=""><img src="logoonpic.png" alt="logo"></a></li>
+                        <li id="icon-carts"> <i class="fa fa-shopping-cart" ></i></i></li>
+                    </ul>
+                    
+                </div>
+                <div class="header-input">
+                    <input type="text" placeholder="search">
+                    <i class="fa fa-search" ></i>
+                </div>
+                <div class="header-icon">
+                    <i class="fa fa-shopping-cart" ></i>
+                </div>
             </div>
             <div class="header-2">
                 <div class="header-21">
@@ -31,74 +36,80 @@
                         <li><a href="">HOME</a></li>
                         <li><a href="">VERTU</a>
                             <ul class="dropdown">
-                                <li><a href="">Vertu1</a></li>
-                                <li><a href="">Vertu2</a></li>
-                                <li><a href="">Vertu3</a></li>
-                                <li><a href="">Vertu1</a></li>
-                                <li><a href="">Vertu2</a></li>
-                                <li><a href="">Vertu3</a></li>
+                                <ul>
+                                    <li><a href="">Vertu1</a></li>
+                                    <li><a href="">Vertu2</a></li>
+                                    <li><a href="">Vertu3</a></li>
+                                    <li><a href="">Vertu1</a></li>
+                                    <li><a href="">Vertu2</a></li>
+                                    <li><a href="">Vertu3</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="">Vertu1</a></li>
+                                    <li><a href="">Vertu2</a></li>
+                                    <li><a href="">Vertu3</a></li>
+                                    <li><a href="">Vertu1</a></li>
+                                    <li><a href="">Vertu2</a></li>
+                                    <li><a href="">Vertu3</a></li>
+                                </ul>
                             </ul>
                         </li>
                         <li><a href="">WATCH</a>
                             <ul class="dropdown">
-                                <li><a href="">Vertu1</a></li>
-                                <li><a href="">Vertu2</a></li>
-                                <li><a href="">Vertu3</a></li>
-                                <li><a href="">Vertu1</a></li>
-                                <li><a href="">Vertu2</a></li>
-                                <li><a href="">Vertu3</a></li>
+                                <ul>
+                                    <li><a href="">Vertu1</a></li>
+                                    <li><a href="">Vertu2</a></li>
+                                    <li><a href="">Vertu3</a></li>
+                                    <li><a href="">Vertu1</a></li>
+                                    <li><a href="">Vertu2</a></li>
+                                    <li><a href="">Vertu3</a></li>
+                                </ul>
                             </ul>
                         </li>
                         <li><a href="">PHỤ KIỆN</a>
                             <ul class="dropdown">
+                               <ul>
                                 <li><a href="">Vertu1</a></li>
                                 <li><a href="">Vertu2</a></li>
                                 <li><a href="">Vertu3</a></li>
+                               </ul>
                             </ul>
                         </li>
                         <li><a href="">KHÁM PHÁ</a>
                             <ul class="dropdown">
-                                <li><a href="">Vertu1</a></li>
-                                <li><a href="">Vertu2</a></li>
-                                <li><a href="">Vertu3</a></li>
+                                <ul>
+                                    <li><a href="">Vertu1</a></li>
+                                    <li><a href="">Vertu2</a></li>
+                                    <li><a href="">Vertu3</a></li>
+                                </ul>
                             </ul>
                         </li>
                         <li><a href="">DỊCH VỤ</a>
                             <ul class="dropdown">
-                                <li><a href="">Vertu1</a></li>
-                                <li><a href="">Vertu2</a></li>
-                                <li><a href="">Vertu3</a></li>
+                                <ul>
+                                    <li><a href="">Vertu1</a></li>
+                                    <li><a href="">Vertu2</a></li>
+                                    <li><a href="">Vertu3</a></li>
+                                </ul>
                             </ul>
                         </li>
                         <li><a href="">LIÊN HỆ</a></li>
                     </ul>
                 </div>
                 <div class="header-22">
-                    <ul>
-                        <li><i class="fa fa-shopping-cart" ></i></li>
-                        <li><i class="fa fa-search" ></i>
-                            <ul class="dropdown"><input type="text"></ul>
-                        </li>
-                    </ul>
+                    <input type="text" placeholder="search">
+                    <i class="fa fa-search" ></i>
                 </div>
             </div>
         </div>
     </div>
       
 <script>
-    // const id = document.getElementsByClassName('header-2');
-    // id[0].style.display = 'flex';
-    // function sub(){
-    //     if(id[0].style.display == 'none'){
-    //         id[0].style.display = 'flex';
-    //     }else{
-    //         id[0].style.display ='none';
-    //     }
-    // }
+   
     $(document).ready(function(){
         $('.fa-bars').click(function(){
             console.log('ok')
-            $('.header-2').toggleClass('visible');
+            $('.header-21').toggleClass('visible');
         });
     });
 </script>
