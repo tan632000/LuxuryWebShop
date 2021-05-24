@@ -13,7 +13,7 @@
     background-image: linear-gradient(to right,rgb(141, 141, 111),grey);
 }
 .container{
-   padding: 0 10%;
+   padding: 1% 10%;
    text-align: center;
 }
 
@@ -89,7 +89,7 @@
     list-style-type: none;
     position: relative;
     /* margin-left: 20px; */
-    padding: 5px 10px;
+    padding: 5px 20px;
 }
 .header-21 li a{
     text-decoration: none;
@@ -106,7 +106,7 @@
 }
 .header-21 li:hover ul.dropdown {
     display: flex;
-    margin-left: 15% ;
+    /* margin-left: 15% ; */
     flex-direction: column;
 }
 .header-21 li ul.dropdown{
