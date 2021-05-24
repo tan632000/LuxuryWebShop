@@ -1,0 +1,119 @@
+@media only screen and (max-width:768px){
+    
+    .container{
+        padding: 0;
+    }
+    .header-logo{
+        width: 100%;
+    }
+    #icon-bar, #icon-carts{
+        display: block;
+    }
+    #icon-bar i,#icon-carts i{
+        font-size: 30px;
+    }
+    .header-input{
+        display: none;
+    }
+    .header-icon{
+        display: none;
+    }
+
+    /* header-1 */
+    .header-1{
+        padding: 8px;
+    }
+    .header-1 ul{
+        display: flex;
+       align-items: center;
+       justify-content: space-between;
+   }
+   .header-1 ul li{
+       width:32% ;
+   }
+   .header-1 ul li i{
+       font-size: 20px;
+   }
+   
+    /* phan menu  */
+    .header-2{
+        display: flex;
+    }
+    
+    .header-21 {
+        display: block;
+        overflow: hidden;
+        background-color: black;
+        width: 200px;
+        height: 100%;
+        position: fixed;
+        left: -200px;
+    }
+    .visible{
+        left: 0px;
+        transition: left 0.3s ease;
+    }
+    .header-21 ul{
+        display: block;
+    }
+    .header-21 ul li{
+        margin-bottom: 10px;
+    }
+    .header-21 ul li a{
+        color: chocolate;
+        font-size: 20px;
+    }
+    
+    /* drop down */
+   .header-2 li:hover ul.dropdown {
+        display: flex;
+    }
+   .header-2 li ul.dropdown {
+        position: absolute;
+        display: none;
+        width:min-content;
+        background: black;
+        border-radius:5px; 
+    }
+ 
+    .header-21 li:hover ul.dropdown {
+        display: flex;
+        flex-direction: row;
+    }
+    .header-21 li ul.dropdown{
+        position: absolute;
+        display: none;
+        width:max-content;
+        background: white;
+        border-radius: 10px; 
+        z-index: 99;
+    }
+    .header-21 li ul.dropdown li a{
+        font-size: 15px;
+        color: black;
+        display: block;
+        font-weight: 400;
+    }
+    /* header-22 */
+    .header-22{
+        width: 95%;
+        display: flex;
+        margin: 5px 10px; 
+        background-color: white;
+    }
+    .header-22 input{
+        width: 88%;
+        font-size: inherit;
+        padding: 10px;
+        outline: none;
+        border: none;
+    }
+    .header-22 i{
+        background-color: khaki;
+        width: 5%;
+        margin: 1%;
+        padding: 10px;
+         font-size: 20px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.container{
+    margin: 0 15%;
+}
+/*  */
+.header-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 0;
+    margin-bottom: 20px;
+}
+/* 1-1 */
+.header-11 {
+    width: 50%;
+}
+.header-11 img{
+    width: 250px;
+    height: 50px;
+}
+#icon-bar, #icon{
+    display: none;
+}
+/* 1-2 */
+.header-12{
+    width: 50%;
+}
+#icon-cart a{
+    font-size: 20px;
+    color: rgba(204, 204, 26, 0.938);
+}
+#icon-seach input{
+    font-size: inherit;
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+}
+/* chung */
+.header-11 ul, .header-12 ul{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+} 
+.header-11 ul li, .header-12 ul li{
+    list-style: none;
+}
+i{
+    color: rgba(204, 204, 26, 0.938);
+    font-size: 20px;
+}
+/* header-2 */
+.header-2 ul{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    
+}
+.header-2 ul li{
+    list-style: none;
+    padding: 10px;
+}
+.header-2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicod';
+}
+
+/* hover */
+.lux-container{
+    position: absolute; 
+    display: none;
+    top: 100%;
+    left: 0;
+    z-index: 99;
+    background: #FFF;
+    /* overflow: hidden; */
+    border: 1px solid #F4BA01;
+    box-shadow: 0px px 8px rgba(0,0,0,.5);
+    width: 100%;
+    min-height: 400px;
+    padding: 30px;
+    
+}
+
+.header-2 ul li:hover > .lux-container{
+    display: block;
+    
+}
+.lux-box{
+    padding: 20px;
+}
+.lux-box {
+    display: flex;
+    justify-content: space-between;
+}
+.lux-box1 ul, .lux-box2 ul, .lux-box3 ul{
+    display: block;
+}
+.lux-box2 ul{
+    margin-top: 40px;
+}
+.lux-box ul li{
+    list-style:inside;
+    margin-bottom: 10px;
+}
+.lux-box1, .vertu-box2{
+    margin-bottom: 50px;
+}
+.lux-box a{
+    color: grey;
+    font-family: inherit;
+}
