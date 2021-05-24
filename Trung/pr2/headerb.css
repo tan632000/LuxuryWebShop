@@ -23,10 +23,10 @@
     padding: 10px;
 }
 .header-1 a, .header-1 i{
-    width: 13%;
+    width: 15%;
 }
 .header-input{
-    width: 70%;
+    width: 65%;
 }
 .header-logo ul{
     display: flex;
@@ -42,12 +42,13 @@
 .header-input{
     background-color: white;
     display: flex;
+    height: 45px;
     margin: 0 2%;
 }
 .header-input input{
     width: 88%;
     font-size: inherit;
-    padding: 10px;
+    padding: 6px;
     outline: none;
     border: none;
 }
@@ -115,6 +116,7 @@
 
 .header-21 li ul.dropdown li{
     display: block;
+    margin-left: -3px;
 }
 
 .header-21 li ul.dropdown li a{
