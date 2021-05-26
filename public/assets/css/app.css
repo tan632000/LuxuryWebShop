@@ -12,9 +12,10 @@
     display: block;
     background-image: linear-gradient(to right,rgb(196, 143, 93),rgb(206, 173, 123));
 }
-.container{
+.container-0{
    padding: 1% 10%;
    text-align: center;
+   /* box-sizing: border-box; */
 }
 
 /* header-1 */ 
@@ -100,7 +101,10 @@
     font-size: 14px;
     color: black;
 }
-
+ul{
+    margin-bottom: 0;
+    padding-left: 0;
+}
 /* drop down */
 
 .header-21 li:hover{
@@ -143,7 +147,7 @@
 
 @media only screen and (max-width:768px){
     
-    .container{
+    .container-0{
         padding: 0;
     }
     .header-logo{

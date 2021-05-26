@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" >
     <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/footer.css') }}" rel="stylesheet">
     <script src="https://kit.fontawesome.com/90d684ab4f.js"></script>
@@ -21,13 +22,13 @@
 <body>
     <div id="app">
         <div class="header-bar">
-            <div class="container">
+            <div class="container-0">
                 <div class="header-1">
                     <div class="header-logo">
                         <ul>
-                            <li id="icon-bar"><i class="fa fa-bars"  ></i><li>
+                            <li id="icon-bar"><i class="fa fa-bars"  ></i></li>
                             <li><a href=""><img src="{{ asset('assets/images/logoonpic.png') }}" alt="logo"></a></li>
-                            <li id="icon-carts"> <i class="fa fa-shopping-cart" ></i></i></li>
+                            <li id="icon-carts"> <i class="fa fa-shopping-cart" ></i></li>
                         </ul>
                         
                     </div>
@@ -111,6 +112,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div>
+           
         </div>
         <div class="py-4">
             @yield('content')
